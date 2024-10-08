@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/background2"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="8dp"
+        android:hint="Enter First Name"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+
+        android:id="@+id/editText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/background2"
+        android:ems="10"
+        android:hint="Enter Last Name"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <TextView
+
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/arbutus_slab"
+        android:background="@drawable/background"
+        android:padding="8dp"
+        android:text="Bride Details"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        app:layout_constraintStart_toStartOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <EditText
+
+
+        android:id="@+id/bridename"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/background2"
+        android:ems="10"
+        android:hint="Enter Last Name"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <EditText
+
+
+        android:id="@+id/editText3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/background2"
+        android:ems="10"
+        android:hint="Enter Last Name"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/bridename"
+        app:layout_constraintTop_toBottomOf="@+id/bridename" />
+
+    <TextView
+
+
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background"
+        android:fontFamily="@font/arbutus_slab"
+        android:padding="8dp"
+        android:text="Event Details"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        app:layout_constraintStart_toStartOf="@+id/editText3"
+        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+
+
+    <EditText
+
+
+        android:id="@+id/functionname"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/background2"
+        android:ems="10"
+        android:hint="Function  Name"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+
+    <EditText
+
+
+        android:id="@+id/functiontime"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/background2"
+        android:ems="10"
+        android:hint="Event Timming"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/functionname"
+        app:layout_constraintTop_toBottomOf="@+id/functionname" />
+
+
+    <EditText
+
+
+        android:id="@+id/functiondate"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/background2"
+        android:ems="10"
+        android:hint="Event Date"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/functiontime"
+        app:layout_constraintTop_toBottomOf="@+id/functiontime" />
+
+
+    <EditText
+
+
+        android:id="@+id/venuname"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/background2"
+        android:ems="10"
+        android:hint="Venue"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/functiondate"
+        app:layout_constraintTop_toBottomOf="@+id/functiondate" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Preview"
+        android:fontFamily="@font/arbutus_slab"
+        android:background="@drawable/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/venuname"
+        app:layout_constraintVertical_bias="0.714" />
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+        <RadioButton
+            android:id="@+id/grooms"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:buttonTint="@color/boys"
+            android:text="Boys Side"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="10dp" />
+
+        <RadioButton
+            android:id="@+id/bride"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:buttonTint="@color/girls"
+            android:text="Girls Side"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="10dp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/background"
+        android:fontFamily="@font/arbutus_slab"
+        android:padding="8dp"
+        android:text="Groom Details"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RadioGroup" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="#70FFC107"
+        android:fontFamily="@font/anton"
+        android:paddingStart="8dp"
+        android:paddingTop="25dp"
+        android:text="Wedding Card"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

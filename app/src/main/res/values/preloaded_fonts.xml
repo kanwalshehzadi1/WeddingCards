@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aclonica</item>
+        <item>@font/akronim</item>
+        <item>@font/aldrich</item>
+        <item>@font/anton</item>
+        <item>@font/arbutus_slab</item>
+        <item>@font/calligraffitti</item>
+        <item>@font/dancing_script</item>
+        <item>@font/my_soul</item>
+    </array>
+</resources>
